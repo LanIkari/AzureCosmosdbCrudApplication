@@ -18,7 +18,7 @@ import org.springframework.lang.Nullable;
 
 @Configuration
 @EnableConfigurationProperties(CosmosProperties.class)
-@EnableCosmosRepositories(basePackages = "com.techestop.azurecosmosdbcrud.repository")
+@EnableCosmosRepositories(basePackages = "com.proyecto.spring")
 @PropertySource("classpath:application.properties")
 public class CosmosCrudAppConfiguration extends AbstractCosmosConfiguration {
     private static final Logger logger = LoggerFactory.getLogger(CosmosCrudAppConfiguration.class);

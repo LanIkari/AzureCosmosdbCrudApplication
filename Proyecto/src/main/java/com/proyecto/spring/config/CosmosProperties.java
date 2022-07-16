@@ -2,6 +2,8 @@ package com.proyecto.spring.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+//Esta clase contiene todos los datos y metodos para que cuando se haga alguna solicitud a la
+//base de datos de cosmos, se le den los parametros necesarios para acceder
 @ConfigurationProperties(prefix = "cosmos")
 public class CosmosProperties {
 
